@@ -81,6 +81,9 @@
     </main>
     <jsp:include page="/WEB-INF/views/common/footer.jsp"/>
 
+        <!-- myPage.js external 방식으로 추가 -->
+        <script src="/resources/js/member/myPage.js"></script>
+
     <!-- 다음 주소 api 추가 -->
 </body>
 </html>
