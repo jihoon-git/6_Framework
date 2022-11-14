@@ -1,4 +1,4 @@
-package edu.kh.project.common;
+package edu.kh.project.comon;
 
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.ControllerAdvice;

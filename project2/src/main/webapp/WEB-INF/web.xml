@@ -11,7 +11,8 @@
 		<!-- spring폴더 이동 후 경로 변경 -->
 		<param-value>
 		classpath:spring/root-context.xml
-		classpath:spring/spring-security.xml		
+		classpath:spring/spring-security.xml
+		classpath:spring/email-context.xml
 		</param-value>
 	</context-param>
 	
