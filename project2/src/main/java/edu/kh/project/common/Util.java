@@ -1,4 +1,4 @@
-package edu.kh.project.comon;
+package edu.kh.project.common;
 
 import java.text.SimpleDateFormat;
 

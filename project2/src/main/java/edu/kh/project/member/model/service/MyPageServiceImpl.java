@@ -10,7 +10,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.multipart.MultipartFile;
 
-import edu.kh.project.comon.Util;
+import edu.kh.project.common.Util;
 import edu.kh.project.member.model.dao.MyPageDAO;
 import edu.kh.project.member.model.vo.Member;
 
