@@ -41,7 +41,16 @@
                         <img src="${board.profileImage}">
                     </c:if>
 
-                    <span>${board.memberNickname}</span>
+                    <!-- 채팅방 입장 -->
+                    <%-- 게시글 작성자와 로그인한 멤버가 다른 사람일 경우에만 채팅 가능 --%>
+                    <c:choose>
+                        <c:when test="${empty loginMember or loginMember.memberNo == board.memberNo}">
+                            <span>${board.memberNickname}</span>
+                        </c:when>
+                        <c:otherwise>
+                            <span><a href="/chatting/enter?targetNo=${board.memberNo}">${board.memberNickname}</a></span>
+                        </c:otherwise>
+                    </c:choose>
 
                     <!-- 좋아요 -->
                     <span class="like-area">
